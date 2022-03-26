@@ -1,0 +1,155 @@
+{
+  "name" : "StarlightTest",
+  "symbol" : "sr",
+  "data_url" : "https://djkuroakari.github.io/datatest.json",
+   "course": [
+    [
+      {
+        "name": "Starlight2022段位認定 初心 AlphaTest",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "50f5f76db4495448de780ba6c62745df",
+          "e73ebcd9293b77c79935b9ba81270bd3",
+          "f7e33cff0a6072b9601f26a162627709",
+          "6c818e26be743fead29ab262798fb639"
+        ]
+      },
+      {
+        "name": "Starlight2022段位認定 入門 AlphaTest",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "a3ef52dce3c6b22d2c6797a29e24567b",
+          "fd1e9db9beb857d3b734e8481519b05d",
+          "b9dabfbe37ded8d6773b6a6b80f83350",
+          "9c1d9d750c1bf3aa6e3002f2c56de4be"
+        ]
+      },
+      {
+        "name": "Starlight2022段位認定 錬士 AlphaTest",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "eb2595614af3f46e395b1bb0c2b5c8cc",
+          "4a6ab3571f5e8c4de0c0f9e08a43128a",
+          "f263fe26ed524198a45283b2ad1b1db3",
+          "d765bc7d6e555a5758567e580cd14f96"
+        ]
+      },
+      {
+        "name": "Starlight2022段位認定 教士 AlphaTest",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "541c9a97e8fbfe4087662f84d93b850b",
+          "25ce2e85522a78ec864b45d88088452b",
+          "02b97c1de65a85b420943c8328904df8",
+          "6ca4cf15cba22a7cdf3790c1253a4b0c"
+        ]
+      },
+      {
+        "name": "Starlight2022段位認定 範士 AlphaTest",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "613a98e796e28e106487e36b6912cd4f",
+          "69586eb09b1fc4ff8edbec7bfa1f6e8c",
+          "7d1e8fab153035be559eacdee5541e48",
+          "51174ffa3b4b053524cda96b991adbb0"
+        ]
+      },
+      {
+        "name": "Starlight2022段位認定 初伝 AlphaTest",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "dfb188bcf9506f9f00626c5263a84366",
+          "46c464d5defbd0eb9e9d463a6ead522e",
+          "d42e735c4948e3394d54feff7a81b111",
+          "0d51bd70c530dc3a7b0d434190c3e426"
+        ]
+      },
+      {
+        "name": "Starlight2022段位認定 免許 AlphaTest",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "b5c94d18f1812590198b7b0fec27d57d",
+          "e77b60fa4861c27f6cdfd5600f328821",
+          "dbbc2221c588c365f146da231edbe333",
+          "4886a031c7bb84c968bf32bc87d644b6"
+        ]
+      }
+],
+[
+      {
+        "name": "GENOCIDE2018通常段位認定 BOSS RUSH",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "52650f7ca6b989917f095f0635c71da4",
+          "e9d2bc9465b6172c27df0d7da71f10d6",
+          "5dc2ecda7d5a5615ed10a132ac3cd4bd",
+          "77dd6afb7bfb291774fbdcf5aa0db282"
+        ]
+      }
+],
+[
+      {
+        "name": "5億円が欲しい段位認定 GOLD RUSH",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "a231fa33955a38c7ffdf7f3d8551a964",
+          "1e8c21cd345b2b216cef2fdcd8de6234",
+          "5abb4a9b0ce1071983a860b43bbaca2c",
+          "02d7822f0eb2899917c99f588f52caa2"
+        ]
+      }
+],
+[
+      {
+        "name": "FutureMUSiC段位認定 未来音楽",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "19fe8f4c35e9c0cd182e6f5a065806dd",
+          "ebd3b9aa3fc7d5621a6dd95b7705157e",
+          "ad807d0e1fa81f4c5ca758c43e8d099a",
+          "e30d8e7e56894d326d88e5bbfe327872"
+        ]
+      }
+    ]
+  ]
+}
