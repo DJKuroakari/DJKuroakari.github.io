@@ -1,0 +1,95 @@
+{
+  "name" : "BMS練習生三期段位認定表",
+  "symbol" : "ba",
+  "data_url" : "https://djkuroakari.github.io/batterymsdata.json",
+   "course": [
+    [
+      {
+        "name": "BMS練習生三期段位認定 発狂初段",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "12c06f4353bb52bfe9a859d9765f9664",
+          "3004d49607ce6fe08e572169a7bd61c2",
+          "4ec61c1d81b50a31f028ba4693e0ddba",
+          "5a9eede846c0a2d13e27c86326b164f8"
+        ]
+      },
+      {
+        "name": "BMS練習生三期段位認定 発狂二段",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "5c1b6d4fab17625da43100cc09223bc8",
+          "aaffdf6c3fd3731cfb577b9375381c57",
+          "c27de5c753fcd90b1d471f589e027399",
+          "d70b69449d39959609c20cc95230ff20"
+        ]
+      },
+      {
+        "name": "BMS練習生三期段位認定 発狂三段",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "1e69627c0ca4628b67f731bc36423875",
+          "642b5393587c2adeaaafaaaff5fc167c",
+          "e37d03dc1487200f376a52c491326ada",
+          "5d6abb820987e25c784c49501bf9246a"
+        ]
+      },
+      {
+        "name": "BMS練習生三期段位認定 発狂四段",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "06eba6331a168ae1ba596c58e5d235cf",
+          "3b3ffc9ece8671973cea9d90f93c2e8f",
+          "b670d56530361a25c00112b31195d410",
+          "695a7b261e23b22cf0b1b8c8f4626635"
+        ]
+      }
+],
+[
+      {
+        "name": "百合段位認定 純愛と百合の境界",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "5d35daf1f3e66b63260a61579bb79360",
+          "79feed2cbf54e5405a43e60392769dcf",
+          "8839a8b09073b5a1fdd822f108ec4fd5",
+          "2dbea18093752099ed1252a64d077697"
+        ]
+      },
+      {
+        "name": "百合段位認定 百合とレズの境界",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "d4b933c5b43a7bd4bbc5570d777d09e3",
+          "8b286419155fb0e901f8fc52225acf1d",
+          "47de06762f16d164426e3197c5de967c",
+          "a718de9a2cd2f88deafbd40f5929abb4"
+        ]
+      }
+    ]
+  ]
+}
