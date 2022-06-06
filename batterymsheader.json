@@ -1,0 +1,293 @@
+{
+  "name" : "BMS練習生三期段位認定表",
+  "symbol" : "ba",
+  "data_url" : "https://djkuroakari.github.io/batterymsdata.json",
+   "course": [
+    [
+      {
+        "name": "BMS練習生三期段位認定 発狂初段",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "12c06f4353bb52bfe9a859d9765f9664",
+          "3004d49607ce6fe08e572169a7bd61c2",
+          "4ec61c1d81b50a31f028ba4693e0ddba",
+          "5a9eede846c0a2d13e27c86326b164f8"
+        ]
+      },
+      {
+        "name": "BMS練習生三期段位認定 発狂二段",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "5c1b6d4fab17625da43100cc09223bc8",
+          "aaffdf6c3fd3731cfb577b9375381c57",
+          "c27de5c753fcd90b1d471f589e027399",
+          "d70b69449d39959609c20cc95230ff20"
+        ]
+      },
+      {
+        "name": "BMS練習生三期段位認定 発狂三段",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "1e69627c0ca4628b67f731bc36423875",
+          "642b5393587c2adeaaafaaaff5fc167c",
+          "e37d03dc1487200f376a52c491326ada",
+          "5d6abb820987e25c784c49501bf9246a"
+        ]
+      },
+      {
+        "name": "BMS練習生三期段位認定 発狂四段",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "06eba6331a168ae1ba596c58e5d235cf",
+          "3b3ffc9ece8671973cea9d90f93c2e8f",
+          "b670d56530361a25c00112b31195d410",
+          "695a7b261e23b22cf0b1b8c8f4626635"
+        ]
+      }
+],
+[
+      {
+        "name": "百合段位認定 友達と純愛の境界",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "79feed2cbf54e5405a43e60392769dcf",
+          "7bc133cb61747bed7ddc88c9eddddbf5",
+          "8839a8b09073b5a1fdd822f108ec4fd5",
+          "2dbea18093752099ed1252a64d077697"
+        ]
+      },
+      {
+        "name": "百合段位認定 純愛と百合の境界",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "15b9da504bab6ee1cf7122fe8e36a08e",
+          "0496e348a2253430658af85f410cda4b",
+          "bb51e06228e7279b47120b9a5c527421",
+          "bfc85e0964ffca13a5162543df1563f3"
+        ]
+      },
+      {
+        "name": "百合段位認定 百合とレズの境界",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "d4b933c5b43a7bd4bbc5570d777d09e3",
+          "8b286419155fb0e901f8fc52225acf1d",
+          "47de06762f16d164426e3197c5de967c",
+          "a718de9a2cd2f88deafbd40f5929abb4"
+        ]
+      }
+],
+[
+      {
+        "name": "Mallow's Satellite Course sl0",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "db91b19c140138f278f0bd231d8a81d0",
+          "c74942da2bb8599f726f10a6c8fd67a5",
+          "c120662343f4a211a71750d491cc56ac",
+          "c4c1e31a6acce5118cc95b7e3de29601"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl1",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "d2d922aa6bcaeed61087d434b330c30e",
+          "590f5819a5b0b550775f994b845e0f7d",
+          "689a2b8f998abcca07f8c9a2726b7cf1",
+          "eb70f10e25ae2c02146f8512bbb8ab79"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl2",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "a38fcd8a5d6779fea4de309e8d613bd3",
+          "415c224cfdae9249d2170aae72f53868",
+          "65a31f2f2fb40dd9fba2ee983aaca4d4",
+          "45c3c25bed84bc61d06cf6ec6d03e81a"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl3",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "523835bc67ef5bc9bb6f19a61fbea7ab",
+          "d4be913786b347383b6f2691dd9a3259",
+          "e0fad5fcb854abe2cdb29b2d8d7b2001",
+          "c88e57f308cba2574e37e6ee0440f0e7"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl4",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "42b8aae291c69e28bdebfcfbc31a0797",
+          "35e9b7c25bf77a239c7aa4160d79336f",
+          "8699cec85a8c7493757b21eb910c4358",
+          "5a9db579baf2e9cf23a1d7d773ca7487"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl5",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "f94e4a5f13263fdb5ee4aa74e0856b47",
+          "af3d691548fe1aa9fdbf19d0e96387fb",
+          "31d94f9c12d00a95b059e0a0629232a0",
+          "7e18f7763e6ff8b09bf3280bde1fa22b"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl6",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "ab84c7f922e034182a7e1edac1148433",
+          "319f4b239a0ae5bb283b186480010685",
+          "1e6243c8347baf7922ba4c1e957af332",
+          "081f3e162b1d88f0f0e59a44593af6e4"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl7",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "f1040af1f00fa49ea68ed6e9ab3aa2e9",
+          "6abc6a1fab2751a28f76f398820b04b3",
+          "502f2e31b37878df952c8bcd54b4e1b3",
+          "eaf24464a5adb518463c83f953cd5300"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl8",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "1e0216061051fb1999ed52ff2ce22851",
+          "12465f3ced547f6a6735f94c9f6751b1",
+          "dc77bd7acccaeb391ea39043736cb72c",
+          "6db26f984b34fc62a271ec1d8e5ac8e8"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl9",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "04358a9776ed6fb81fe30eaa930e6eb7",
+          "0e44e4ac3b9955124859563def40c3a4",
+          "0d74abe1b55e4c7de690a956543f097b",
+          "0a7556dd67ac8c0d236c35452844e3d8"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl10",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "08cd57615b032334aea711bff8392254",
+          "1f1ada3e57c4ffeb74be2bbd9b01039c",
+          "24c869a51384af113e9271a766e7d4be",
+          "8b3c66f945d041b5df53ba3e292e5c54"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl11",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "96af0b0fd5f9e61ed5078494776a951e",
+          "b2286e29fbffb7a5a5cb2a622d57201b",
+          "5ef59b86b228978d435115aa7a9e564a",
+          "e446e497aa6d2b60f14a001f49cf2ecc"
+        ]
+      },
+      {
+        "name": "Mallow's Satellite Course sl12",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "1aa6618d671728be96004e3a00173be7",
+          "99c4ae6e5b0251aa015269841464ffc8",
+          "84f24615319041873d799faf257d86bf",
+          "7e059c93b59768bd662f17cb1cc7545c"
+        ]
+      }
+    ]
+  ]
+}
