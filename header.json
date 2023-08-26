@@ -1,0 +1,107 @@
+{
+  "name" : "Starlight",
+  "symbol" : "sr",
+  "data_url" : "https://djkuroakari.github.io/data.json",
+   "course": [
+    [
+      {
+        "name": "Starlight2023段位認定 初心",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "81e74d4ab04061ecdb4d05a3f2e08c71",
+          "434f9673c592288bd0233d9295a6d644",
+          "7a2fc0e27c007b8071c7d2875fceac8a",
+          "0bcb02d7654939e3780fba3c7de7451b"
+        ]
+      },
+      {
+        "name": "Starlight2023段位認定 入門",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "b296e2261be516dc056393e764eddde1",
+          "0bc09805ba16f748b4516daedc11babe",
+          "9a08d5f460c306468ec1023492b48c63",
+          "f7d49442cc63c7d1f862d45cd9186253"
+        ]
+      },
+      {
+        "name": "Starlight2023段位認定 錬士",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "244532a82fee61eb2f9f9aca942ade80",
+          "3258ab5f37b1e369eb416b317c0917eb",
+          "cb8e996311399ec41ca2c5aa5ed8a66e",
+          "b47f3e638bfd864ddb64cb6cb7cb2203"
+        ]
+      },
+      {
+        "name": "Starlight2023段位認定 教士",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "625dac4f349b93bf848b7b91ba78a346",
+          "eb4946c8127ca09d6ccc0c8b9076fa7e",
+          "82d8c1dda1ee4a1b5669de290d7f61d4",
+          "482f6c7d92fa835c4056f03a037288ec"
+        ]
+      },
+      {
+        "name": "Starlight2023段位認定 範士",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "d515ceac5eda6ed8e100a0804a34332f",
+          "5d37c39584ac2a67d5814a7d8b287fe3",
+          "7d1e8fab153035be559eacdee5541e48",
+          "e9ece2e30e87d34a38b7d364698d7e35"
+        ]
+      },
+      {
+        "name": "Starlight2023段位認定 初伝",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "7b1d65613fbaed2be5354f77ad5172a8",
+          "de3c9a8f256d27e573e7e73e3dfea2d3",
+          "259c6ff7871efb0492d1dac5d16fda17",
+          "056e3d6a2cd908666f6387802494883b"
+        ]
+      },
+      {
+        "name": "Starlight2023段位認定 免許",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "d2d5792aa418494573c6885c6b8f85f7",
+          "435d998473a3894483a4a15376d12ce3",
+          "d73941d67b31615139b8917865a7ca0d",
+          "89ae5595ae852177c9867ff9d01d8c86"
+        ]
+      }
+    ]
+  ]
+}
