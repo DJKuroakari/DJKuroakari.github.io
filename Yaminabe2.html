@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>True me behind the Veil</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta name="bmstable" content="https://djkuroakari.github.io/Yaminabe2header.json" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/jpg" href="resources\127a92551f6b5ea3.jpg">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://djkuroakari.github.io/jquery-3.6.0.min.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+								<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#obj:7599">7599</a></li>
+							<li><a href="#obj:1s2">1s2</a></li>
+							<li><a href="#obj:Colorful Train">Colorful Train</a></li>
+							<li><a href="#obj:dashan">dashan</a></li>
+							<li><a href="#obj:Fluchpuppe">Fluchpuppe</a></li>
+							<li><a href="#obj:FriedSnow">FriedSnow</a></li>
+							<li><a href="#obj:Hitsuumi">Hitsuumi</a></li>
+							<li><a href="#obj:Kuroakari">Kuroakari</a></li>
+							<li><a href="#obj:nbunnyuwu">nbunnyuwu</a></li>
+							<li><a href="#obj:Reiaki">Reiaki</a></li>
+							<li><a href="#obj:Rnk0u">Rnk0u</a></li>
+							<li><a href="#obj:Seiran-">Seiran-</a></li>
+							<li><a href="#obj:tyrcs">tyrcs</a></li>
+							<li><a href="#obj:Verta.F">Verta.F</a></li>
+							<li><a href="#obj:Zethiwo">Zethiwo</a></li>
+						</ul>
+					</nav>
+				
+				<!-- Header -->
+					<header id="header">
+						<h1>偽名差分会"Guess me in the Yaminabe"闇鍋難易度表 展開編(仮)</h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="Marisa/bg76.png" alt="" /></span>
+										<ul class="actions special">
+										<li><a href="index.html" class="button">返回主页</a></li>
+									</ul>
+								<h2>简要介绍</h2>
+  <p>Guess me in the Yaminabe是由Zethiwo和Kuroakari共同举办的系列写谱活动，截止2026年8月已举办6届。</p>
+  <p>本活动的灵感来源于SABUN in the DARK，主题即为由谱师使用马甲写谱参加比赛。</p>
+  <p>本表为里难度表，为该活动的解谜篇，以真实obj名义分类本活动的参赛谱面。
+  <p>点击此处下载全曲大包：</p>
+  <ul class="actions special">
+  <li><a href="https://www.bilibili.com/video/BV1GJ411x7h7" class="button">全曲大包(Coming S∞n)</a></li>
+  </ul>						
+  <p>以下所有歌曲都带有国内可用的下载链接以及谱面预览，请善用"Ctrl+F"组合键以及上方的难度导航快速查找需要查看的歌曲。</p>
+  <p>本表最近更新日期:2026/08/10。</p>
+  <ul class="actions special">
+  <li><a href="https://djkuroakari.github.io/starlighttable.html" class="button">点击此处返回表难度表</a></li>
+  </ul>	
+          					
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+<!--　　　　　ここから難易度表本体　　　　　-->
+<div class="tableframe">
+<table align="center" cellspacing="1" cellpadding="2　border=&quot;0&quot;" bgcolor="#000000" id="table_int"><tbody></tbody></table>
+</div>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+	$.getJSON($("meta[name=bmstable]").attr("content"), function(header){
+		$.getJSON(header.data_url, function(information){
+			makeBMSTable(information,header.symbol);
+		});
+	});
+});
+
+function makeBMSTable(info, mark) {
+    var x = "";
+    var ev = "";
+    var count = 0;
+    var obj = $("#table_int");
+    // 表のクリア
+    obj.html("");
+    $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>Level</td><td align='center'>Title</td><td align='center'>Artist</td><td align='center'>Chart</td><td align='center'>Comment</td><td align='center'>Score View</td></tr>").appendTo(obj);
+    var obj_sep = null;
+    for (var i = 0; i < info.length; i++) {
+        // 難度ごとの区切り
+        if (x != info[i].level) {
+            // 前の区切りに譜面数、平均密度を追加
+          	if (obj_sep != null) {
+                obj_sep.html("<td colspan='6' align='center'>" + "<b>" + mark + x + " (" + count + " Charts)</b></td>");
+            }
+            obj_sep = $("<tr class='tr_separate' id='" + mark + info[i].level + "'></tr>");
+            obj_sep.appendTo(obj);
+            count = 0;
+            x = info[i].level;
+        }
+        // 本文
+        var str = $("<tr class='tr_normal'></tr>");
+        if(info[i].state == 1) {
+        str = $("<tr class='tr_new'></tr>");
+        }
+        if(info[i].state == 2) {        
+        str = $("<tr class='tr_update'></tr>");
+        }
+        // レベル表記
+        $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
+        // タイトル
+        $("<td width='20%' align='left'>" + "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
+        // アーティスト
+        var astr = "";
+        if(info[i].url != null) {
+        	if(info[i].artist != null) {
+        		astr = "<a href='" + info[i].url + "'>" + info[i].artist + "</a>";
+        	} else {
+        		astr = "<a href='" + info[i].url + "'>" + info[i].url + "</a>";
+        	}
+        } else {
+        	if(info[i].artist != null) {
+        		astr = info[i].artist;
+        	}
+        }
+        if(info[i].url_pack != null) {
+        	if(info[i].name_pack != null) {
+        		astr += "<br />(<a href='" + info[i].url_pack + "'>" + info[i].name_pack + "</a>)";
+        	} else {
+        		astr += "<br />(<a href='" + info[i].url_pack + "'>" + info[i].url_pack + "</a>)";
+        	}
+        } else {
+        	if(info[i].name_pack != null) {
+        		astr += "<br />(" + info[i].name_pack + ")";
+        	}
+        }
+        $("<td width='20%' align='left'>" + astr + "</td>").appendTo(str);
+        // 差分
+        if(info[i].url_diff != null) {
+        	if(info[i].name_diff != null) {
+	        $("<td width='10%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
+        	} else {
+	        $("<td width='10%'><a href='" + info[i].url_diff + "'>" + info[i].url_diff + "</a></td>").appendTo(str);
+        	}
+        } else {
+        	if(info[i].name_diff != null) {
+	        $("<td width='10%'>" + info[i].name_diff + "</td>").appendTo(str);
+        	} else {
+	        $("<td width='10%'></td>").appendTo(str);
+        	}
+        }
+        // コメント
+        $("<td width='15%' align='left'>" + info[i].comment + "</td>").appendTo(str);
+        // ScoreView
+        $("<td width='5%'><a href='https://bms-score-viewer.pages.dev/view?md5=" + info[i].md5 + "'>" + "🎶" + "</a></td>").appendTo(str);
+        str.appendTo(obj);
+        count++;
+    }
+    // 最後の区切り処理
+    if (obj_sep != null) {
+        obj_sep.html("<td colspan='6' align='center'>" + "<b>" + mark + x + " (" + count + " Charts)</b></td>");
+    }
+}
+</script>
+</div></div></div>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
