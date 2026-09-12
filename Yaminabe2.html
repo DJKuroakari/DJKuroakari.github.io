@@ -99,7 +99,7 @@ function makeBMSTable(info, mark) {
         // レベル表記
         $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
         // タイトル
-        $("<td width='25%' align='center'>" + "<a href='https://bms-score-viewer.pages.dev/view?md5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
+        $("<td width='25%' align='left'>" + "<a href='https://bms-score-viewer.pages.dev/view?md5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
         // アーティスト
         var astr = "";
         if(info[i].url != null) {
@@ -140,7 +140,7 @@ function makeBMSTable(info, mark) {
         	}
         }
         // コメント
-        $("<td width='5%' align='left'>" + info[i].comment + "</td>").appendTo(str);
+        $("<td width='5%' align='center'>" + info[i].comment + "</td>").appendTo(str);
         // ScoreView
         $("<td width='5%'><a href='https://bms-score-viewer.pages.dev/view?md5=" + info[i].md5 + "'>" + "🎶" + "</a></td>").appendTo(str);
         str.appendTo(obj);
