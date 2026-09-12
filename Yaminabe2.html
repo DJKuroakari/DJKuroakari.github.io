@@ -20,27 +20,6 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-								<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#obj:7599">7599</a></li>
-							<li><a href="#obj:1s2">1s2</a></li>
-							<li><a href="#obj:Colorful Train">Colorful Train</a></li>
-							<li><a href="#obj:dashan">dashan</a></li>
-							<li><a href="#obj:Fluchpuppe">Fluchpuppe</a></li>
-							<li><a href="#obj:FriedSnow">FriedSnow</a></li>
-							<li><a href="#obj:Hitsuumi">Hitsuumi</a></li>
-							<li><a href="#obj:Kuroakari">Kuroakari</a></li>
-							<li><a href="#obj:nbunnyuwu">nbunnyuwu</a></li>
-							<li><a href="#obj:Reiaki">Reiaki</a></li>
-							<li><a href="#obj:Rnk0u">Rnk0u</a></li>
-							<li><a href="#obj:Seiran-">Seiran-</a></li>
-							<li><a href="#obj:tyrcs">tyrcs</a></li>
-							<li><a href="#obj:Verta.F">Verta.F</a></li>
-							<li><a href="#obj:Zethiwo">Zethiwo</a></li>
-						</ul>
-					</nav>
-				
 				<!-- Header -->
 					<header id="header">
 						<h1>偽名差分会"Guess me in the Yaminabe"闇鍋難易度表 展開編(仮)</h1>
@@ -64,7 +43,7 @@
   <li><a href="https://www.bilibili.com/video/BV1GJ411x7h7" class="button">全曲大包(Coming S∞n)</a></li>
   </ul>						
   <p>以下所有歌曲都带有国内可用的下载链接以及谱面预览，请善用"Ctrl+F"组合键以及上方的难度导航快速查找需要查看的歌曲。</p>
-  <p>本表最近更新日期:2026/08/10。</p>
+  <p>本表最近更新日期:2026/09/12。</p>
   <ul class="actions special">
   <li><a href="https://djkuroakari.github.io/starlighttable.html" class="button">点击此处返回表难度表</a></li>
   </ul>	
@@ -120,7 +99,7 @@ function makeBMSTable(info, mark) {
         // レベル表記
         $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
         // タイトル
-        $("<td width='20%' align='left'>" + "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
+        $("<td width='25%' align='center'>" + "<a href='https://bms-score-viewer.pages.dev/view?md5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
         // アーティスト
         var astr = "";
         if(info[i].url != null) {
@@ -145,7 +124,7 @@ function makeBMSTable(info, mark) {
         		astr += "<br />(" + info[i].name_pack + ")";
         	}
         }
-        $("<td width='20%' align='left'>" + astr + "</td>").appendTo(str);
+        $("<td width='25%' align='left'>" + astr + "</td>").appendTo(str);
         // 差分
         if(info[i].url_diff != null) {
         	if(info[i].name_diff != null) {
@@ -161,7 +140,7 @@ function makeBMSTable(info, mark) {
         	}
         }
         // コメント
-        $("<td width='15%' align='left'>" + info[i].comment + "</td>").appendTo(str);
+        $("<td width='5%' align='left'>" + info[i].comment + "</td>").appendTo(str);
         // ScoreView
         $("<td width='5%'><a href='https://bms-score-viewer.pages.dev/view?md5=" + info[i].md5 + "'>" + "🎶" + "</a></td>").appendTo(str);
         str.appendTo(obj);
@@ -174,7 +153,6 @@ function makeBMSTable(info, mark) {
 }
 </script>
 </div></div></div>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
